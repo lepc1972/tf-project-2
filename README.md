@@ -4,7 +4,7 @@
 
 # tf-project-2
 ## este repositorio contiene archivos terraform para construir una vpc y subredes en
-us-east-1
+##us-east-1
 
 # uso
 ## tener terraform instalado , ademas de aws cli configurado con tu cuenta aws y disponer
