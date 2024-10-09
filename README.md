@@ -4,18 +4,26 @@
 
 # tf-project-2
 ## este repositorio contiene archivos terraform para construir una vpc y subredes en us-east-1
-
-
+-----------------------------------------------------------------------------------------------
 # uso
-## tener terraform instalado , ademas de aws cli configurado con tu cuenta aws y disponer
-de todos los permisos necesarios para manipular recursos.
+## tener terraform y aws cli con tu usuario configurado y permisos necesarios para
+ejecutar el codigo.
+-----------------------------------------------------------------------------------------------
+# comandos
+## terraform init
+### inicia y configura el provider aws ademas del backup
+------------------------------------------------------------------------------------------------
+## terraform fmt
+### no es obligatorio, pero es bastante util para formatear el codigo y dejarlo presentable
+----------------------------------------------------------------------------------------------
+## terraform validate
+### como su nombre lo dice, valida que todo este en orden y listo para ejecutarse
+-------------------------------------------------------------------------------------------------
+## terraform plan
+### nos muestra que es lo q se va a construir o eliminar segun nuestras necesidades
+--------------------------------------------------------------------------------------------------
+## terraform apply
+### ejecuta nuestra codigo
+-------------------------------------------------------------------------------------------------
 
-## descargar repo, y aplicar comandos terraform init para iniciar y descargar configuraciones
-propias de aws e iniciar el backup, luego un terraform fmt para formatear el codigo y que ten
-ga una buena presentacion, luego un teraform validate, este comando va a revisar todo, que este bien
-sin necesidad de correr nada, seguimos con terraform plan, aca veremos lo que se va a construir o 
-eliminar segun nuestra configuracion y para terminar un terraform apply, que es el comando que va a
-ejecutar y construir nuestro codigo.
-
-Buena suerte.
 
