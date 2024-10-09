@@ -8,7 +8,7 @@
 
 # uso
 ## tener terraform instalado , ademas de aws cli configurado con tu cuenta aws y disponer
-## de todos los permisos necesarios para manipular recursos.
+de todos los permisos necesarios para manipular recursos.
 
 ## descargar repo, y aplicar comandos terraform init para iniciar y descargar configuraciones
 propias de aws e iniciar el backup, luego un terraform fmt para formatear el codigo y que ten
